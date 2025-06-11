@@ -1,1 +1,1 @@
-# react-router-parcel-template
+# react-router-parcel-starter
