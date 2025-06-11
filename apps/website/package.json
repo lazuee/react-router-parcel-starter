@@ -1,0 +1,43 @@
+{
+  "name": "website",
+  "private": true,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production parcel build --target server",
+    "clean": "node -e \"import('fs/promises').then(fs => Promise.all(['dist', '.parcel-cache', '.react-router', '.react-router-parcel'].map(d => fs.rm(d, { recursive: true, force: true })))).then(() => new Promise((resolve) => setTimeout(resolve, 100)))\"",
+    "dev": "pnpm run clean && cross-env NODE_ENV=development parcel --target server",
+    "start": "cross-env NODE_ENV=production node ./dist/server/index.js",
+    "typecheck": "react-router typegen && tsc"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.4",
+    "@ryanflorence/async-provider": "^0.0.1",
+    "hono": "^4.7.11",
+    "react": "^19.2.0-canary-56408a5b-20250610",
+    "react-dom": "^19.2.0-canary-56408a5b-20250610",
+    "react-router": "https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7"
+  },
+  "devDependencies": {
+    "@parcel/runtime-rsc": "2.15.3-canary.3476",
+    "@react-router/dev": "https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7",
+    "@tailwindcss/postcss": "^4.1.8",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "22.13.0",
+    "@types/react": "^19.1.7",
+    "@types/react-dom": "^19.1.6",
+    "parcel": "2.0.0-canary.1851",
+    "parcel-config-react-router-experimental": "https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3"
+  },
+  "targets": {
+    "server": {
+      "source": "src/server/index.ts",
+      "context": "react-server",
+      "scopeHoist": false,
+      "includeNodeModules": {
+        "@hono/node-server": false,
+        "hono": false
+      }
+    }
+  }
+}

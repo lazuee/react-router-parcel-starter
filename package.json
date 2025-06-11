@@ -1,0 +1,44 @@
+{
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm run build:package && pnpm run build:app",
+    "build:app": "pnpm run -r  --stream --if-present --parallel --filter {apps/**} --workspace-concurrency=Infinity /^build.*/",
+    "build:package": "pnpm run -r  --stream --if-present --parallel --filter {packages/**} --workspace-concurrency=Infinity /^build.*/",
+    "dev": "pnpm run -r  --stream --if-present --parallel --filter {apps/website} --workspace-concurrency=Infinity /^dev.*/",
+    "lint": "pnpm run --stream --if-present /^lint:.*/",
+    "lint:eslint": "eslint . --fix",
+    "lint:stylelint": "stylelint --ignore-path .gitignore \"{apps,packages}/**/*.{css,scss}\" --fix",
+    "start": "pnpm run -r  --stream --if-present --parallel --filter {apps/website} --workspace-concurrency=Infinity /^start.*/"
+  },
+  "devDependencies": {
+    "@ntnyq/eslint-config": "^5.0.0-beta.6",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.28.0",
+    "eslint-plugin-pnpm": "^0.3.1",
+    "stylelint": "^16.20.0",
+    "stylelint-config-clean-order": "^7.0.0",
+    "stylelint-config-standard-scss": "^15.0.1",
+    "stylelint-config-tailwindcss": "^1.0.0",
+    "stylelint-scss": "^6.12.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "react": "^19.2.0-canary-56408a5b-20250610",
+      "react-dom": "^19.2.0-canary-56408a5b-20250610"
+    },
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "@swc/core",
+      "@tailwindcss/oxide",
+      "esbuild",
+      "lmdb",
+      "msgpackr-extract",
+      "unrs-resolver"
+    ]
+  }
+}
