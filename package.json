@@ -28,8 +28,8 @@
   },
   "pnpm": {
     "overrides": {
-      "react": "^19.2.0-canary-56408a5b-20250610",
-      "react-dom": "^19.2.0-canary-56408a5b-20250610"
+      "react": "^19.2.0-canary-b7e2de63-20250611",
+      "react-dom": "^19.2.0-canary-b7e2de63-20250611"
     },
     "onlyBuiltDependencies": [
       "@parcel/watcher",

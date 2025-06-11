@@ -12,21 +12,21 @@
     "@hono/node-server": "^1.14.4",
     "@ryanflorence/async-provider": "^0.0.1",
     "hono": "^4.7.11",
-    "react": "^19.2.0-canary-56408a5b-20250610",
-    "react-dom": "^19.2.0-canary-56408a5b-20250610",
+    "react": "^19.2.0-canary-b7e2de63-20250611",
+    "react-dom": "^19.2.0-canary-b7e2de63-20250611",
     "react-router": "https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7"
   },
   "devDependencies": {
     "@parcel/runtime-rsc": "2.15.3-canary.3476",
     "@react-router/dev": "https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7",
-    "@tailwindcss/postcss": "^4.1.8",
+    "@tailwindcss/postcss": "^4.1.9",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "22.13.0",
-    "@types/react": "^19.1.7",
+    "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "parcel": "2.0.0-canary.1851",
     "parcel-config-react-router-experimental": "https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7",
-    "tailwindcss": "^4.1.8",
+    "tailwindcss": "^4.1.9",
     "typescript": "^5.8.3"
   },
   "targets": {
