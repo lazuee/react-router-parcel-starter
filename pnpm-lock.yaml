@@ -59,15 +59,15 @@ importers:
         specifier: ^19.2.0-canary-a00ca6f6-20250611
         version: 19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527)
       react-router:
-        specifier: https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7
-        version: https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
+        specifier: https://pkg.pr.new/lazuee/npm-preview/react-router@main
+        version: https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
     devDependencies:
       '@parcel/runtime-rsc':
         specifier: ^2.15.3-canary.3476
         version: 2.15.3-canary.3476(@parcel/core@2.15.2(@swc/helpers@0.5.17))
       '@react-router/dev':
-        specifier: https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7
-        version: https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0)
+        specifier: https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main
+        version: https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0)
       '@tailwindcss/postcss':
         specifier: ^4.1.10
         version: 4.1.10
@@ -87,8 +87,8 @@ importers:
         specifier: ^2.0.0-canary.1851
         version: 2.15.2(@swc/helpers@0.5.17)
       parcel-config-react-router-experimental:
-        specifier: https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7
-        version: https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(858eb1361ceb6c6e3a053e00e4de8ab8)
+        specifier: https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@main
+        version: https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@main(@parcel/core@2.15.2(@swc/helpers@0.5.17))(@react-router/dev@https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0))(@swc/helpers@0.5.17)(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(react-server-dom-parcel@19.1.0(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
       tailwindcss:
         specifier: ^4.1.10
         version: 4.1.10
@@ -1332,8 +1332,8 @@ packages:
     resolution: {integrity: sha512-G0OnZbMWEs5LhDyqy2UL17vGhSVHkQIfVojMtEWVenvj0V5S84VBgy86kJIuNsGDp2p7sTKlpSIpBUWdC35OKg==}
     engines: {node: '>=20.0.0'}
 
-  '@react-router/dev@https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7':
-    resolution: {tarball: https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7}
+  '@react-router/dev@https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main':
+    resolution: {tarball: https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main}
     version: 7.6.2
     engines: {node: '>=20.0.0'}
     hasBin: true
@@ -1351,8 +1351,8 @@ packages:
       wrangler:
         optional: true
 
-  '@react-router/node@https://pkg.pr.new/lazuee/npm-preview/@react-router/node@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7':
-    resolution: {tarball: https://pkg.pr.new/lazuee/npm-preview/@react-router/node@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7}
+  '@react-router/node@https://pkg.pr.new/lazuee/npm-preview/@react-router/node@270db61039810a282289235159f5fc5a09cc3882':
+    resolution: {tarball: https://pkg.pr.new/lazuee/npm-preview/@react-router/node@270db61039810a282289235159f5fc5a09cc3882}
     version: 7.6.2
     engines: {node: '>=20.0.0'}
     peerDependencies:
@@ -1988,8 +1988,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001722:
-    resolution: {integrity: sha512-DCQHBBZtiK6JVkAGw7drvAMK0Q0POD/xZvEmDp6baiMMP6QXXk9HpD6mNYBZWhOPG6LvIDb82ITqtWjhDckHCA==}
+  caniuse-lite@1.0.30001723:
+    resolution: {integrity: sha512-1R/elMjtehrFejxwmexeXAtae5UO9iSyFn6G/I806CYC/BLyyBk1EPhrKBkWhy6wM6Xnm47dSJQec+tLJ39WHw==}
 
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -3350,14 +3350,14 @@ packages:
   package-manager-detector@1.3.0:
     resolution: {integrity: sha512-ZsEbbZORsyHuO00lY1kV3/t72yp6Ysay6Pd17ZAlNGuGwmWDLCJxFpRs0IzfXfj1o4icJOkUEioexFHzyPurSQ==}
 
-  parcel-config-react-router-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7:
-    resolution: {tarball: https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7}
-    version: 1.0.19
+  parcel-config-react-router-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@main:
+    resolution: {tarball: https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@main}
+    version: 1.0.20
     engines: {parcel: '>=2.15.0'}
 
-  parcel-resolver-react-router-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7:
-    resolution: {tarball: https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7}
-    version: 1.1.3
+  parcel-resolver-react-router-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-experimental@270db61039810a282289235159f5fc5a09cc3882:
+    resolution: {tarball: https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-experimental@270db61039810a282289235159f5fc5a09cc3882}
+    version: 1.1.4
     engines: {parcel: '>=2.15.0'}
     peerDependencies:
       '@react-router/dev': '*'
@@ -3366,15 +3366,15 @@ packages:
       react-router: '*'
       react-server-dom-parcel: '*'
 
-  parcel-resolver-react-router-typegen-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-typegen-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7:
-    resolution: {tarball: https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-typegen-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7}
+  parcel-resolver-react-router-typegen-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-typegen-experimental@270db61039810a282289235159f5fc5a09cc3882:
+    resolution: {tarball: https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-typegen-experimental@270db61039810a282289235159f5fc5a09cc3882}
     version: 1.1.2
     engines: {parcel: '>=2.15.0'}
     peerDependencies:
       '@react-router/dev': '*'
 
-  parcel-transformer-react-router-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-transformer-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7:
-    resolution: {tarball: https://pkg.pr.new/lazuee/npm-preview/parcel-transformer-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7}
+  parcel-transformer-react-router-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-transformer-react-router-experimental@270db61039810a282289235159f5fc5a09cc3882:
+    resolution: {tarball: https://pkg.pr.new/lazuee/npm-preview/parcel-transformer-react-router-experimental@270db61039810a282289235159f5fc5a09cc3882}
     version: 1.1.2
     engines: {parcel: '>=2.15.0'}
     peerDependencies:
@@ -3570,8 +3570,8 @@ packages:
     resolution: {integrity: sha512-FPvF2XxTSikpJxcr+bHut2H4gJ17+18Uy20D5/F+SKzFap62R3cM5wH6b8WN3LyGSYeQilLEcJcR1fjBSI2S1A==}
     engines: {node: '>=0.10.0'}
 
-  react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7:
-    resolution: {tarball: https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7}
+  react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main:
+    resolution: {tarball: https://pkg.pr.new/lazuee/npm-preview/react-router@main}
     version: 7.6.2
     engines: {node: '>=20.0.0'}
     peerDependencies:
@@ -5598,7 +5598,7 @@ snapshots:
     dependencies:
       quansync: 0.2.10
 
-  '@react-router/dev@https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0)':
+  '@react-router/dev@https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0)':
     dependencies:
       '@babel/core': 7.27.4
       '@babel/generator': 7.27.5
@@ -5609,7 +5609,7 @@ snapshots:
       '@babel/traverse': 7.27.4
       '@babel/types': 7.27.6
       '@npmcli/package-json': 4.0.1
-      '@react-router/node': https://pkg.pr.new/lazuee/npm-preview/@react-router/node@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)
+      '@react-router/node': https://pkg.pr.new/lazuee/npm-preview/@react-router/node@270db61039810a282289235159f5fc5a09cc3882(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)
       arg: 5.0.2
       babel-dead-code-elimination: 1.0.10
       chokidar: 4.0.3
@@ -5622,7 +5622,7 @@ snapshots:
       picocolors: 1.1.1
       prettier: 2.8.8
       react-refresh: 0.14.2
-      react-router: https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
+      react-router: https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
       semver: 7.7.2
       set-cookie-parser: 2.7.1
       tinyglobby: 0.2.14
@@ -5647,10 +5647,10 @@ snapshots:
       - tsx
       - yaml
 
-  '@react-router/node@https://pkg.pr.new/lazuee/npm-preview/@react-router/node@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)':
+  '@react-router/node@https://pkg.pr.new/lazuee/npm-preview/@react-router/node@270db61039810a282289235159f5fc5a09cc3882(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)':
     dependencies:
       '@mjackson/node-fetch-server': 0.2.0
-      react-router: https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
+      react-router: https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
     optionalDependencies:
       typescript: 5.8.3
 
@@ -6200,7 +6200,7 @@ snapshots:
 
   browserslist@4.25.0:
     dependencies:
-      caniuse-lite: 1.0.30001722
+      caniuse-lite: 1.0.30001723
       electron-to-chromium: 1.5.167
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.25.0)
@@ -6233,7 +6233,7 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  caniuse-lite@1.0.30001722: {}
+  caniuse-lite@1.0.30001723: {}
 
   ccount@2.0.1: {}
 
@@ -7797,12 +7797,12 @@ snapshots:
 
   package-manager-detector@1.3.0: {}
 
-  parcel-config-react-router-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(858eb1361ceb6c6e3a053e00e4de8ab8):
-    dependencies:
+  ? parcel-config-react-router-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@main(@parcel/core@2.15.2(@swc/helpers@0.5.17))(@react-router/dev@https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0))(@swc/helpers@0.5.17)(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(react-server-dom-parcel@19.1.0(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
+  : dependencies:
       '@parcel/config-default': 2.15.2(@parcel/core@2.15.2(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)
-      parcel-resolver-react-router-experimental: https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(5978706bfe802d427dcb3b1787f2a13b)
-      parcel-resolver-react-router-typegen-experimental: https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-typegen-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(@parcel/core@2.15.2(@swc/helpers@0.5.17))(@react-router/dev@https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0))
-      parcel-transformer-react-router-experimental: https://pkg.pr.new/lazuee/npm-preview/parcel-transformer-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(@parcel/core@2.15.2(@swc/helpers@0.5.17))(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
+      parcel-resolver-react-router-experimental: https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-experimental@270db61039810a282289235159f5fc5a09cc3882(@parcel/core@2.15.2(@swc/helpers@0.5.17))(@react-router/dev@https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0))(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(react-server-dom-parcel@19.1.0(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
+      parcel-resolver-react-router-typegen-experimental: https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-typegen-experimental@270db61039810a282289235159f5fc5a09cc3882(@parcel/core@2.15.2(@swc/helpers@0.5.17))(@react-router/dev@https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0))
+      parcel-transformer-react-router-experimental: https://pkg.pr.new/lazuee/npm-preview/parcel-transformer-react-router-experimental@270db61039810a282289235159f5fc5a09cc3882(@parcel/core@2.15.2(@swc/helpers@0.5.17))(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
     transitivePeerDependencies:
       - '@parcel/core'
       - '@react-router/dev'
@@ -7814,31 +7814,31 @@ snapshots:
       - react-server-dom-parcel
       - supports-color
 
-  parcel-resolver-react-router-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(5978706bfe802d427dcb3b1787f2a13b):
-    dependencies:
+  ? parcel-resolver-react-router-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-experimental@270db61039810a282289235159f5fc5a09cc3882(@parcel/core@2.15.2(@swc/helpers@0.5.17))(@react-router/dev@https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0))(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(react-server-dom-parcel@19.1.0(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
+  : dependencies:
       '@mjackson/node-fetch-server': 0.6.1
       '@parcel/plugin': 2.15.2(@parcel/core@2.15.2(@swc/helpers@0.5.17))
-      '@react-router/dev': https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0)
+      '@react-router/dev': https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0)
       express: 5.1.0
       jiti: 2.4.2
       react: 19.2.0-canary-f9ae0a4c-20250527
       react-dom: 19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527)
-      react-router: https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
+      react-router: https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
       react-server-dom-parcel: 19.1.0(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
     transitivePeerDependencies:
       - '@parcel/core'
       - napi-wasm
       - supports-color
 
-  parcel-resolver-react-router-typegen-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-typegen-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(@parcel/core@2.15.2(@swc/helpers@0.5.17))(@react-router/dev@https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0)):
+  parcel-resolver-react-router-typegen-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-resolver-react-router-typegen-experimental@270db61039810a282289235159f5fc5a09cc3882(@parcel/core@2.15.2(@swc/helpers@0.5.17))(@react-router/dev@https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0)):
     dependencies:
       '@parcel/plugin': 2.15.2(@parcel/core@2.15.2(@swc/helpers@0.5.17))
-      '@react-router/dev': https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0)
+      '@react-router/dev': https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(typescript@5.8.3)(vite@6.3.5(@types/node@22.13.0)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(yaml@2.8.0)
     transitivePeerDependencies:
       - '@parcel/core'
       - napi-wasm
 
-  parcel-transformer-react-router-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-transformer-react-router-experimental@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(@parcel/core@2.15.2(@swc/helpers@0.5.17))(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527):
+  parcel-transformer-react-router-experimental@https://pkg.pr.new/lazuee/npm-preview/parcel-transformer-react-router-experimental@270db61039810a282289235159f5fc5a09cc3882(@parcel/core@2.15.2(@swc/helpers@0.5.17))(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527):
     dependencies:
       '@babel/core': 7.27.4
       '@babel/generator': 7.27.5
@@ -7851,7 +7851,7 @@ snapshots:
       oxc-transform: 0.64.0
       react: 19.2.0-canary-f9ae0a4c-20250527
       react-dom: 19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527)
-      react-router: https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
+      react-router: https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527)
     transitivePeerDependencies:
       - '@parcel/core'
       - napi-wasm
@@ -8029,7 +8029,7 @@ snapshots:
 
   react-refresh@0.16.0: {}
 
-  react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@f48b22b3d178a94dc3c6c2120b70e5219cb1aaa7(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527):
+  react-router@https://pkg.pr.new/lazuee/npm-preview/react-router@main(react-dom@19.2.0-canary-f9ae0a4c-20250527(react@19.2.0-canary-f9ae0a4c-20250527))(react@19.2.0-canary-f9ae0a4c-20250527):
     dependencies:
       cookie: 1.0.2
       react: 19.2.0-canary-f9ae0a4c-20250527
