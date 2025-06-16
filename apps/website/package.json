@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "cross-env NODE_ENV=production parcel build --target server",
-    "clean": "node -e \"import('fs/promises').then(fs => Promise.all(['dist', '.parcel-cache', '.react-router', '.react-router-parcel'].map(d => fs.rm(d, { recursive: true, force: true })))).then(() => new Promise((resolve) => setTimeout(resolve, 100)))\"",
+    "clean": "node -e \"import('fs/promises').then(fs => Promise.all(['dist', '../.parcel-cache', '.react-router', '.react-router-parcel'].map(d => fs.rm(d, { recursive: true, force: true })))).then(() => new Promise((resolve) => setTimeout(resolve, 100)))\"",
     "dev": "pnpm run clean && cross-env NODE_ENV=development parcel --target server",
     "start": "cross-env NODE_ENV=production node ./dist/server/index.js",
     "typecheck": "react-router typegen && tsc"
@@ -17,7 +17,6 @@
     "react-router": "https://pkg.pr.new/lazuee/npm-preview/react-router@main"
   },
   "devDependencies": {
-    "@parcel/runtime-rsc": "^2.15.3-canary.3476",
     "@react-router/dev": "https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main",
     "@tailwindcss/postcss": "^4.1.10",
     "@tailwindcss/typography": "^0.5.16",
