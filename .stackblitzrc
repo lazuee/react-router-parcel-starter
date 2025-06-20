@@ -1,0 +1,6 @@
+{
+  "installDependencies": false,
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
