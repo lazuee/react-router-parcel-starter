@@ -1,4 +1,7 @@
 {
+  "view": "editor",
+  "compileTrigger": "save",
+  "startCommand": false,
   "installDependencies": false,
   "env": {
     "NODE_ENV": "development"
