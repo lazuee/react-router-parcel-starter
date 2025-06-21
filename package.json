@@ -12,15 +12,15 @@
     "dev": "pnpm run -r  --stream --if-present --parallel --filter {apps/website} --workspace-concurrency=Infinity /^dev.*/",
     "lint": "pnpm run --stream --if-present /^lint:.*/",
     "lint:eslint": "eslint . --fix",
-    "lint:stylelint": "stylelint --ignore-path .gitignore \"{apps,packages}/**/*.{css,scss}\" --fix",
+    "lint:stylelint": "stylelint --ignore-path .gitignore \"{apps,packages}/**/*.{css,scss}\" --aei --fix",
     "start": "pnpm run -r  --stream --if-present --parallel --filter {apps/website} --workspace-concurrency=Infinity /^start.*/"
   },
   "devDependencies": {
-    "@ntnyq/eslint-config": "^5.0.0-beta.6",
+    "@ntnyq/eslint-config": "^5.0.0-beta.7",
     "cross-env": "^7.0.3",
     "eslint": "^9.29.0",
     "eslint-plugin-pnpm": "^0.3.1",
-    "stylelint": "^16.20.0",
+    "stylelint": "^16.21.0",
     "stylelint-config-clean-order": "^7.0.0",
     "stylelint-config-standard-scss": "^15.0.1",
     "stylelint-config-tailwindcss": "^1.0.0",
@@ -28,9 +28,9 @@
   },
   "pnpm": {
     "overrides": {
-      "parcel": "^2.0.0-canary.1851",
-      "react": "^19.2.0-canary-a00ca6f6-20250611",
-      "react-dom": "^19.2.0-canary-a00ca6f6-20250611"
+      "parcel": "^2.0.0-canary.1858",
+      "react": "19.2.0-canary-06e89951-20250620",
+      "react-dom": "19.2.0-canary-06e89951-20250620"
     },
     "onlyBuiltDependencies": [
       "@parcel/watcher",

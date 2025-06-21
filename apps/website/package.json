@@ -11,9 +11,9 @@
   "dependencies": {
     "@hono/node-server": "^1.14.4",
     "@ryanflorence/async-provider": "^0.0.1",
-    "hono": "^4.7.11",
-    "react": "^19.2.0-canary-a00ca6f6-20250611",
-    "react-dom": "^19.2.0-canary-a00ca6f6-20250611",
+    "hono": "^4.8.2",
+    "react": "19.2.0-canary-06e89951-20250620",
+    "react-dom": "19.2.0-canary-06e89951-20250620",
     "react-router": "https://pkg.pr.new/lazuee/npm-preview/react-router@main"
   },
   "devDependencies": {
@@ -23,8 +23,9 @@
     "@types/node": "22.13.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
-    "parcel": "^2.0.0-canary.1851",
+    "parcel": "^2.0.0-canary.1858",
     "parcel-config-react-router-experimental": "https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@main",
+    "postcss-preset-env": "^10.2.3",
     "tailwindcss": "^4.1.10",
     "typescript": "^5.8.3"
   },
