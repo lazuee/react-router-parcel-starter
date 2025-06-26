@@ -5,12 +5,9 @@ import reactRouterRequestHandler from "virtual:react-router/request-handler";
 
 const app = new Hono();
 app.use(
-  "/static/*",
+  "/*",
   serveStatic({
     root: "public/",
-    onNotFound: (path, c) => {
-      console.log(`${path} is not found, you access ${c.req.path}`);
-    },
   }),
 );
 app.use(
@@ -18,9 +15,6 @@ app.use(
   serveStatic({
     rewriteRequestPath: (path) => path.replace(/^\/client/, ""),
     root: "./dist/client",
-    onNotFound: (path, c) => {
-      console.log(`${path} is not found, you access ${c.req.path}`);
-    },
   }),
 );
 

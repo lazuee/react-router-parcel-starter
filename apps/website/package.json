@@ -10,22 +10,20 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.14.4",
-    "@ryanflorence/async-provider": "^0.0.1",
-    "hono": "^4.8.2",
-    "react": "19.2.0-canary-06e89951-20250620",
-    "react-dom": "19.2.0-canary-06e89951-20250620",
+    "hono": "^4.8.3",
+    "react": "19.2.0-canary-cee7939b-20250625",
+    "react-dom": "19.2.0-canary-cee7939b-20250625",
     "react-router": "https://pkg.pr.new/lazuee/npm-preview/react-router@main"
   },
   "devDependencies": {
     "@react-router/dev": "https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main",
+    "@react-router/fs-routes": "https://pkg.pr.new/lazuee/npm-preview/@react-router/fs-routes@main",
     "@tailwindcss/postcss": "^4.1.10",
-    "@tailwindcss/typography": "^0.5.16",
     "@types/node": "22.13.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "parcel": "^2.0.0-canary.1858",
     "parcel-config-react-router-experimental": "https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@main",
-    "postcss-preset-env": "^10.2.3",
     "tailwindcss": "^4.1.10",
     "typescript": "^5.8.3"
   },
