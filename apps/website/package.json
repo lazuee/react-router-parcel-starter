@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "pnpm run clean && cross-env NODE_ENV=production parcel build --target server",
+    "build:vercel": "node scripts/deploy-vercel.mjs",
     "clean": "node -e \"import('fs/promises').then(fs => Promise.all(['dist', '../../.parcel-cache', '.react-router', '.react-router-parcel'].map(d => fs.rm(d, { recursive: true, force: true })))).then(() => new Promise((resolve) => setTimeout(resolve, 1000)))\"",
     "dev": "pnpm run clean && cross-env NODE_ENV=development parcel --target server",
     "start": "cross-env NODE_ENV=production node ./dist/server/index.js",
@@ -22,9 +23,12 @@
     "@types/node": "22.13.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
+    "@vercel/nft": "^0.29.4",
     "parcel": "^2.0.0-canary.1858",
     "parcel-config-react-router-experimental": "https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@main",
+    "resolve-workspace-root": "^2.0.0",
     "tailwindcss": "^4.1.10",
+    "tinyglobby": "^0.2.14",
     "typescript": "^5.8.3"
   },
   "targets": {

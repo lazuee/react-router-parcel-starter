@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "build": "pnpm run build:package && pnpm run build:app",
-    "build:app": "pnpm run -r  --stream --if-present --parallel --filter {apps/**} --workspace-concurrency=Infinity /^build.*/",
+    "build:app": "pnpm run -r  --stream --if-present --parallel --filter {apps/**} --workspace-concurrency=1 /^build.*/",
     "build:package": "pnpm run -r  --stream --if-present --parallel --filter {packages/**} --workspace-concurrency=Infinity /^build.*/",
     "dev": "pnpm run -r  --stream --if-present --parallel --filter {apps/website} --workspace-concurrency=Infinity /^dev.*/",
     "lint": "pnpm run --stream --if-present /^lint:.*/",
