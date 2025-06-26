@@ -6,7 +6,7 @@
   "cleanUrls": true,
   "public": false,
   "github": {
-    "enabled": false,
+    "enabled": true,
     "autoJobCancelation": true
   }
 }
