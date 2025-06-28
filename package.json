@@ -29,8 +29,8 @@
   "pnpm": {
     "overrides": {
       "parcel": "^2.0.0-canary.1858",
-      "react": "19.2.0-canary-cee7939b-20250625",
-      "react-dom": "19.2.0-canary-cee7939b-20250625"
+      "react": "19.2.0-canary-d92056ef-20250627",
+      "react-dom": "19.2.0-canary-d92056ef-20250627"
     },
     "onlyBuiltDependencies": [
       "@parcel/watcher",

@@ -12,14 +12,14 @@
   "dependencies": {
     "@hono/node-server": "^1.14.4",
     "hono": "^4.8.3",
-    "react": "19.2.0-canary-cee7939b-20250625",
-    "react-dom": "19.2.0-canary-cee7939b-20250625",
+    "react": "19.2.0-canary-d92056ef-20250627",
+    "react-dom": "19.2.0-canary-d92056ef-20250627",
     "react-router": "https://pkg.pr.new/lazuee/npm-preview/react-router@main"
   },
   "devDependencies": {
     "@react-router/dev": "https://pkg.pr.new/lazuee/npm-preview/@react-router/dev@main",
     "@react-router/fs-routes": "https://pkg.pr.new/lazuee/npm-preview/@react-router/fs-routes@main",
-    "@tailwindcss/postcss": "^4.1.10",
+    "@tailwindcss/postcss": "^4.1.11",
     "@types/node": "22.13.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
@@ -27,7 +27,7 @@
     "parcel": "^2.0.0-canary.1858",
     "parcel-config-react-router-experimental": "https://pkg.pr.new/lazuee/npm-preview/parcel-config-react-router-experimental@main",
     "resolve-workspace-root": "^2.0.0",
-    "tailwindcss": "^4.1.10",
+    "tailwindcss": "^4.1.11",
     "tinyglobby": "^0.2.14",
     "typescript": "^5.8.3"
   },
