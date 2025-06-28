@@ -2,7 +2,7 @@
 
 import { isRouteErrorResponse, useRouteError } from "react-router";
 
-export function parsedError() {
+export const parsedError = () => {
   const error = useRouteError();
   if (isRouteErrorResponse(error)) {
     return { error, isRouteError: true };
@@ -11,4 +11,4 @@ export function parsedError() {
   } else {
     return { error: error as Error, isUnknown: true };
   }
-}
+};
