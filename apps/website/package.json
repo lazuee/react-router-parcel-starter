@@ -10,10 +10,10 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-    "@hono/node-server": "^1.14.4",
-    "hono": "^4.8.3",
-    "react": "19.2.0-canary-d92056ef-20250627",
-    "react-dom": "19.2.0-canary-d92056ef-20250627",
+    "@hono/node-server": "^1.15.0",
+    "hono": "^4.8.4",
+    "react": "19.2.0-canary-a7a11657-20250708",
+    "react-dom": "19.2.0-canary-a7a11657-20250708",
     "react-router": "https://pkg.pr.new/lazuee/npm-preview/react-router@main"
   },
   "devDependencies": {
