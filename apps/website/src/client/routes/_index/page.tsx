@@ -4,7 +4,7 @@ import { type Route } from "./+types/route";
 import { GotoNonExistingPage } from "./page.client";
 
 export const Page: React.FC<Route.ComponentProps> = ({
-  loaderData: { env },
+  loaderData: { env, isBun },
 }) => {
   return (
     <div className="flex h-full items-center justify-center bg-gradient-to-b from-zinc-50 via-zinc-200 to-zinc-400 dark:from-zinc-700 dark:via-neutral-900 dark:to-zinc-900">
@@ -65,7 +65,8 @@ export const Page: React.FC<Route.ComponentProps> = ({
                   ? "Vercel"
                   : !env?.IS_LOCALHOST
                     ? "Cloud"
-                    : "Localhost"}
+                    : "Localhost"}{" "}
+            with {isBun ? "Bun" : "NodeJS"}
           </p>
           <GotoNonExistingPage />
         </nav>

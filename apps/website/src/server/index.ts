@@ -1,14 +1,14 @@
-import { env } from "node:process";
+import { versions } from "node:process";
 import { serve } from "@hono/node-server";
 import { serveStatic } from "@hono/node-server/serve-static";
 import { handle } from "@hono/node-server/vercel";
 import { Hono } from "hono";
 
 import reactRouterRequestHandler from "virtual:react-router/request-handler";
+import * as env from "@/env.server";
 
-const isVercel = env.VERCEL === "1";
 const app = new Hono();
-if (!isVercel) {
+if (!env.IS_VERCEL) {
   app.use(
     "/*",
     serveStatic({
@@ -28,12 +28,22 @@ app.get("/.well-known/appspecific/com.chrome.devtools.json", (ctx) => {
   return ctx.notFound();
 });
 
+declare module "react-router" {
+  export interface AppLoadContext {
+    readonly env: typeof env;
+    readonly isBun: boolean;
+  }
+}
+
 app.use("*", (ctx) => {
-  return reactRouterRequestHandler(ctx.req.raw);
+  return reactRouterRequestHandler({
+    isBun: !!versions.bun,
+    env: structuredClone(env),
+  })(ctx.req.raw);
 });
 
 const createServer = () => {
-  if (!isVercel) {
+  if (!env.IS_VERCEL) {
     serve({ ...app, port: 3000 });
     console.log("Server listening on port 3000 (http://localhost:3000)");
   } else {

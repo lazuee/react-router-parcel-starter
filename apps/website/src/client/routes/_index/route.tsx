@@ -1,14 +1,14 @@
-import * as env from "@/env.server";
 import { type Route } from "./+types/route";
-
 import { Page } from "./page";
 
-export const loader = ({ request }: Route.LoaderArgs) => {
+export const loader = ({ request, context }: Route.LoaderArgs) => {
+  const { env, isBun } = context;
   const url = new URL(request.url);
   const name = url.searchParams.get("name");
   return {
     name: name || "Unknown",
-    env: structuredClone(env),
+    isBun,
+    env,
   };
 };
 
