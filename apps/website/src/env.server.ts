@@ -27,7 +27,7 @@ export const NODE_ENV =
 export const IS_PRODUCTION_BUILD = NODE_ENV === "production";
 export const IS_GITPOD_WORKSPACE = !!GITPOD_WORKSPACE_URL;
 export const IS_GITHUB_CODESPACE = !!GITHUB_CODESPACE_URL;
-export const IS_VERCEL = !!VERCEL_URL;
+export const IS_VERCEL = !!VERCEL_URL || env.VERCEL === "1";
 export const IS_LOCALHOST = APP_URL.startsWith("localhost");
 export const IS_HOSTED =
   IS_GITPOD_WORKSPACE || IS_GITHUB_CODESPACE || IS_VERCEL || !IS_LOCALHOST;
