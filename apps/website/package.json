@@ -2,7 +2,7 @@
   "name": "website",
   "private": true,
   "scripts": {
-    "build": "pnpm run clean && cross-env NODE_ENV=production parcel build --target server",
+    "build": "pnpm run clean && cross-env NODE_ENV=production parcel build --target server --no-source-maps",
     "build:vercel": "node scripts/deploy-vercel.mjs",
     "clean": "node -e \"import('fs/promises').then(fs => Promise.all(['dist', '../../.parcel-cache', '.react-router', '.react-router-parcel'].map(d => fs.rm(d, { recursive: true, force: true })))).then(() => new Promise((resolve) => setTimeout(resolve, 1000)))\"",
     "dev": "pnpm run clean && cross-env NODE_ENV=development parcel --target server",
