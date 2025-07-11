@@ -166,7 +166,7 @@ if (process.env.VERCEL) {
     );
 
     await execute(
-      "npm install --force --no-frozen-lockfile && npx clean-modules ./node_modules -y",
+      `npm install --force --no-frozen-lockfile && npx clean-modules -y "**/*.d.ts" "**/@types/**"`,
       {
         cwd: vercelFuncDir,
       },
