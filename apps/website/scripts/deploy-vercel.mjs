@@ -165,8 +165,11 @@ if (process.env.VERCEL) {
       ),
     );
 
-    await execute("npm install --force --no-frozen-lockfile", {
-      cwd: vercelFuncDir,
-    });
+    await execute(
+      "npm install --force --no-frozen-lockfile && npx clean-modules ./node_modules -y",
+      {
+        cwd: vercelFuncDir,
+      },
+    );
   }
 }
